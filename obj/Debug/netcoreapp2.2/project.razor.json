@@ -2976,6 +2976,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Mark\\Desktop\\CodingDojo\\csharp_stack\\CSharpProject\\CardsAgainstMadLibs\\Views\\LoginReg\\LoginRegPage.cshtml",
+      "TargetPath": "Views\\LoginReg\\LoginRegPage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Mark\\Desktop\\CodingDojo\\csharp_stack\\CSharpProject\\CardsAgainstMadLibs\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -2996,13 +3001,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Mark\\Desktop\\CodingDojo\\csharp_stack\\CSharpProject\\CardsAgainstMadLibs\\Views\\Game\\Welcome.cshtml",
+      "TargetPath": "Views\\Game\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Mark\\Desktop\\CodingDojo\\csharp_stack\\CSharpProject\\CardsAgainstMadLibs\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Mark\\Desktop\\CodingDojo\\csharp_stack\\CSharpProject\\CardsAgainstMadLibs\\Views\\Home\\test.cshtml",
-      "TargetPath": "Views\\Home\\test.cshtml",
+      "FilePath": "c:\\Users\\Mark\\Desktop\\CodingDojo\\csharp_stack\\CSharpProject\\CardsAgainstMadLibs\\Views\\LoginReg\\LandingPage.cshtml",
+      "TargetPath": "Views\\LoginReg\\LandingPage.cshtml",
       "FileKind": "mvc"
     }
   ],

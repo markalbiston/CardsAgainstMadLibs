@@ -49,7 +49,7 @@ namespace CardsAgainstMadLibs
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=LoginReg}/{action=LoginRegPage}/{id?}");
+                    template: "{controller=LoginReg}/{action=LandingPage}/{id?}");
             });
         }
     }

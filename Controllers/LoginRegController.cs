@@ -19,10 +19,17 @@ namespace CardsAgainstMadLibs.Controllers
         }
 
         [HttpGet("")]
+        public IActionResult LandingPage()
+        {
+            return View();
+        }
+
+        [HttpGet("/loginreg")]
         public IActionResult LoginRegPage()
         {
             return View();
         }
+
 
         [HttpPost("/register")]
         public IActionResult RegisterNewUser(LoginRegVM model)
@@ -39,7 +46,7 @@ namespace CardsAgainstMadLibs.Controllers
                 dbContext.Add(model.User);
                 dbContext.SaveChanges();
                 HttpContext.Session.SetInt32("currentuser", (int)model.User.UserId);
-                return RedirectToAction("Welcome", "Home");
+                return RedirectToAction("Welcome", "Game");
             }
             return View("LoginRegPage");
         }
@@ -52,7 +59,7 @@ namespace CardsAgainstMadLibs.Controllers
                 User loggeduser = dbContext.Users.FirstOrDefault(u => u.Username == model.Credentials.Username);
                 if(loggeduser == null)
                 {
-                    ModelState.AddModelError("Credentials.Email", "Email address provided is not associated with a user account");
+                    ModelState.AddModelError("Credentials.Username", "Username provided is not associated with a user account");
                     return View("LoginRegPage");
                 }
                 PasswordHasher<Credentials> hasher = new PasswordHasher<Credentials>();
@@ -63,7 +70,7 @@ namespace CardsAgainstMadLibs.Controllers
                     return View("LoginRegPage");
                 }
                 HttpContext.Session.SetInt32("currentuser", (int)loggeduser.UserId);
-                return RedirectToAction("Welcome", "Home");
+                return RedirectToAction("Welcome", "Game");
             }
             return View("LoginRegPage", model);
         }
