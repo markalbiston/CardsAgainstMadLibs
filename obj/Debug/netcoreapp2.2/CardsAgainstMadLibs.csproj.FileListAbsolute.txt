@@ -31,3 +31,6 @@ C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\
 C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\obj\Debug\netcoreapp2.2\CardsAgainstMadLibs.csproj.CopyComplete
 C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\obj\Debug\netcoreapp2.2\Razor\Views\LoginReg\LandingPage.g.cshtml.cs
 C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\obj\Debug\netcoreapp2.2\Razor\Views\Game\Welcome.g.cshtml.cs
+C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\obj\Debug\netcoreapp2.2\Razor\Views\Game\CardPage.g.cshtml.cs
+C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\obj\Debug\netcoreapp2.2\Razor\Views\Game\Dashboard.g.cshtml.cs
+C:\Users\Mark\Desktop\CodingDojo\csharp_stack\CSharpProject\CardsAgainstMadLibs\obj\Debug\netcoreapp2.2\Razor\Views\Game\Winner.g.cshtml.cs

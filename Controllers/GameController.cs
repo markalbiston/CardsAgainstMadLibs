@@ -25,10 +25,33 @@ namespace CardsAgainstMadLibs.Controllers
         }
 
         [HttpGet("/card")]
-        public IActionResult CardInput()
+        public IActionResult CardPage()
         {
             return View();
         }
 
+        [HttpPost("/submitcard")]
+        public IActionResult SubmitCard()
+        {
+            return RedirectToAction("Dashboard");
+        }
+
+        [HttpGet("/dashboard")]
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        [HttpPost("/vote")]
+        public IActionResult Vote()
+        {
+            return RedirectToAction("WinnerPage");
+        }
+
+        [HttpGet("/winner")]
+        public IActionResult WinnerPage()
+        {
+            return View();
+        }
     }
 }

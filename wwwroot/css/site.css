@@ -134,3 +134,9 @@ main{
   /* height: 10%; */
   /* overflow-y:hidden; */
 }
+.cardtitle{
+  text-align: center;
+}
+.titlecolumn{
+  text-align: end;
+}
